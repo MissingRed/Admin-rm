@@ -1,0 +1,32 @@
+.content {
+    width: 100%;
+    margin: 30px;
+}
+
+.content h3{
+    margin-top: 0;
+}
+
+.rtable {
+
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.rtable th {
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    background: #f2f0e6;
+}
+
+.rtable th, .rtable td {
+    padding: 6px 12px;
+    border: 1px solid #d9d7ce;
+}
+
+
+

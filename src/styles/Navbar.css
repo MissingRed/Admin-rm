@@ -1,9 +1,17 @@
 .wrapper {
-    padding: 3px;
+    height: auto;
     background: royalblue;
     display: flex;
-  
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.title {
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.849);
+}
+.buttons {
+    display: flex;
+    align-items: center;
 }
 
 .wrapper button {
@@ -15,7 +23,6 @@
 }
 
 .wrapper img {
-    
     display: flex;
     align-items: center;
 }
